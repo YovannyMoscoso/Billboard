@@ -17,7 +17,7 @@ public class billboard100 {
         Song oneSong;
         
         
-        billboardFile.nextLine();
+        billboardFile.nextLine(); // This line will skip the first line of the file which is the declaration of each field
 
         while (billboardFile.hasNext()) {
             
